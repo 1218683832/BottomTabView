@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.mrrun.bottomtabview.view.BottomTabView
+        android:id="@+id/bottomtabview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text"
+        app:items_xml="@xml/xml_bottomtabview_items"
+        app:item_text_color_normal="#bfbfbf"
+        app:item_text_color_selected="#ff704d"
+        app:item_text_size="10sp"
+        app:item_icon_width="22dp"
+        app:item_icon_height="22dp"
+        app:item_icon_magre_top="5dp"
+        app:item_icon_magre_bottom="0dp"
+        app:item_text_magre_bottom="2dp"
+        android:layout_marginTop="20dp"
+        android:background="#fff6e5">
+    </com.mrrun.bottomtabview.view.BottomTabView>
+</android.support.constraint.ConstraintLayout>
