@@ -22,7 +22,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text"
-        app:items_xml="@xml/xml_bottomtabview_items"
+        app:item_xml="@xml/xml_bottomtabview_items"
         app:item_text_color_normal="#bfbfbf"
         app:item_text_color_selected="#ff704d"
         app:item_text_size="10sp"

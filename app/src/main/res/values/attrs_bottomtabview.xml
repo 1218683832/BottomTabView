@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="BottomTabView">
-        <!-- 配置的Item数据xml资源id -->
-        <attr name="items_xml" format="reference" />
+        <!-- 配置的Item数据xml资源id  xml_bottomtabview_items.xml-->
+        <attr name="item_xml" format="reference" />
         <!-- item文字默认颜色 -->
         <attr name="item_text_color_normal" format="color|reference" />
         <!-- item文字选择时颜色 -->

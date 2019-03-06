@@ -290,7 +290,7 @@ public class BottomTabView extends LinearLayout implements View.OnClickListener 
 
     private void initAttrs(AttributeSet attrs) {
         TypedArray typedArray = mContext.obtainStyledAttributes(attrs, R.styleable.BottomTabView);
-        mItemXmlResId = typedArray.getResourceId(R.styleable.BottomTabView_items_xml, mItemXmlResId);
+        mItemXmlResId = typedArray.getResourceId(R.styleable.BottomTabView_item_xml, mItemXmlResId);
         mItemIconMagreTop = typedArray.getDimension(R.styleable.BottomTabView_item_icon_magre_top, mItemIconMagreTop);
         mItemTextMagreBottom = typedArray.getDimension(R.styleable.BottomTabView_item_text_magre_bottom, mItemTextMagreBottom);
         mItemIconMagreBottom = typedArray.getDimension(R.styleable.BottomTabView_item_icon_magre_bottom, mItemIconMagreBottom);
